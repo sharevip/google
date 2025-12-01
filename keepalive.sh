@@ -4,5 +4,3 @@ while true; do
   echo "Keepalive: $(date)"
   sleep 300
 done
-
-nohup ./keepalive.sh &
