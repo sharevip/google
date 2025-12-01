@@ -8,7 +8,7 @@ sudo nohup tailscaled --tun=userspace-networking --socks5-server=localhost:1055 
 
 sleep 3
 
-AUTH_KEY="tskey-auth-kELz52WRw311CNTRL-PMxV1neVqeSsWwZPmbyqdScgzNe2gmBpL"
+AUTH_KEY="tskey-a"
 
 echo "=== Logging in with AUTH_KEY ==="
 sudo tailscale up --authkey "$AUTH_KEY" --hostname=codespace-node --advertise-exit-node --reset
